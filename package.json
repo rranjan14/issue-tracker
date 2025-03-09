@@ -2,7 +2,13 @@
   "name": "@issue-tracker/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "api:serve": "nx serve apps/api",
+    "api:build": "nx build apps/api",
+    "api:test": "nx test apps/api",
+    "api:lint": "nx lint apps/api",
+    "api:tidy": "nx tidy apps/api"
+  },
   "private": true,
   "dependencies": {
     "@expo/metro-config": "~0.19.4",
